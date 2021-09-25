@@ -1,10 +1,5 @@
-/*Codificação de caracteres*/
-@charset "UTF-8";
-/*Fonte customizada*/
-@font-face {
-    font-family: "Caligrafia";
-    src: url("//FONTS/Anything\ Better\ Font\ by\ 7NTypes.otf") format("opentype");
-}
+@charset "UTF-8"; /*Codificação de caracteres*/
+
 /*Media query*/
 @media screen and (max-width: 1160px) {
      main {
@@ -29,7 +24,7 @@ body {
 }
 /*Elemento de tag <main>*/
 main {
-    background-color: aqua;
+    background-color: #c300ff;
     margin: auto;
     max-height: 1150px;
     max-width: 1200px;
@@ -45,14 +40,14 @@ main {
     position: relative;
     bottom: 140px;
 }
-/*Elemento de id luiz*/
+/*Elemento de id "luiz"*/
 #luiz {
     position: relative;
     bottom: 120px;
     text-transform: uppercase;
     font-style: oblique;
 }
-/*Elemento de classe sobremin*/
+/*Elemento de CLASS "sobremin"*/
 .sobremin {
     text-align: justify;
     position: relative;
@@ -68,8 +63,9 @@ h1, p {
 h2 {
     margin-bottom: 20px;
     background-image: linear-gradient(to right, #3ddc84, transparent);
+    border-radius: 5px;
 }
-/*Elemento de classe perfil*/
+/*Elemento de CLASS "perfil"*/
 .perfil {
     height: 900px;
     width: 400px;
@@ -79,12 +75,7 @@ h2 {
     top: 290px; 
     right: 350px;
 }
-/*Tag de tabela <ul> e <li>, <a>*/
-ul li a {
-     display: block;
-     text-decoration: none;
-}
-/*Elemento de classe infoluiz*/
+/*Elemento de CLASS "infoluiz"*/
 .infoluiz {
     position: relative;
     left: 600px;
@@ -96,7 +87,7 @@ ul img {
     left: 600px;
     bottom: 470px;
 }
-/*Elemento de classe paragrafo*/
+/*Elemento de CLASS "paragrafo"*/
 .paragrafo {
     text-align: start;
     font-family: "Caligrafia";
